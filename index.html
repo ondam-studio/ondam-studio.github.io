@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0b0614">
+<title>마왕의 딸 키우기 - 공식 사이트</title>
+<meta name="description" content="마왕님의 하나뿐인 딸, 오늘부터 내가 키운다! 접속 안 해도 쑥쑥 크는 방치형 RPG">
+<meta property="og:title" content="마왕의 딸 키우기">
+<meta property="og:description" content="마왕님의 하나뿐인 딸, 오늘부터 내가 키운다! 접속 안 해도 쑥쑥 크는 방치형 RPG">
+<meta property="og:image" content="img/keyvisual.jpg">
+<!-- TODO: 도메인 확정 후 og:url, canonical, og:image 절대 경로로 교체 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&amp;family=Cinzel:wght@600&amp;family=Noto+Sans+KR:wght@400;500;700&amp;display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">본문 바로가기</a>
+<div class="stardust" aria-hidden="true"></div>
+
+<header class="top-nav">
+  <div class="top-nav__inner">
+    <a class="brand" href="index.html" aria-label="마왕의 딸 키우기 홈">
+      <svg viewBox="0 0 48 32" fill="currentColor" aria-hidden="true"><path d="M4 2c1 6 4 9 8 10l3-7 5 9 4-12 4 12 5-9 3 7c4-1 7-4 8-10 2 8-1 15-7 18l-1 8H12l-1-8C5 17 2 10 4 2z"/></svg>
+      <span>마왕의 딸 키우기</span>
+    </a>
+    <nav aria-label="주 메뉴">
+      <ul class="top-nav__menu">
+        <li><a href="#story">세계관</a></li>
+        <li><a href="#princess">공주</a></li>
+        <li><a href="#features">게임 특징</a></li>
+        <li><a href="probability.html">확률 정보</a></li>
+      </ul>
+    </nav>
+    <details class="nav-toggle">
+      <summary aria-label="메뉴 열기"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></summary>
+      <ul>
+        <li><a href="#story">세계관</a></li>
+        <li><a href="#princess">공주</a></li>
+        <li><a href="#features">게임 특징</a></li>
+        <li><a href="probability.html">확률 정보</a></li>
+        <li><a href="privacy.html">개인정보처리방침</a></li>
+      </ul>
+    </details>
+    <div class="top-nav__cta"><a class="btn-gold" href="#download">곧 출시</a></div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- 키 비주얼 (세븐나이츠 키우기 메인 구성: 풀스크린 일러스트 + 좌측 로고·슬로건·스토어 배지 + 스크롤 화살표) -->
+  <section class="kv" aria-labelledby="kv-title">
+    <div class="kv__bg">
+      <picture>
+        <source media="(max-width: 767px)" srcset="img/keyvisual-mobile.jpg">
+        <!-- TODO: keyvisual.jpg 는 세로 캡처를 합성한 임시본. 가로 1920x1080 전용 렌더로 교체 -->
+        <img src="img/keyvisual.jpg" width="1920" height="1080" alt="" fetchpriority="high">
+      </picture>
+    </div>
+    <div class="embers" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="kv__inner">
+      <div class="kv__copy">
+        <p class="kv__eyebrow">Idle RPG</p>
+        <h1 id="kv-title" class="logo">
+          <svg class="logo__emblem" viewBox="0 0 48 32" fill="currentColor" aria-hidden="true"><path d="M4 2c1 6 4 9 8 10l3-7 5 9 4-12 4 12 5-9 3 7c4-1 7-4 8-10 2 8-1 15-7 18l-1 8H12l-1-8C5 17 2 10 4 2z"/></svg>
+          <span class="logo__a">마왕의 딸</span>
+          <span class="logo__b">키우기</span>
+        </h1>
+        <p class="kv__slogan">마왕님의 하나뿐인 딸,<br>오늘부터 내가 키운다!</p>
+        <p class="kv__lead">접속하지 않아도 쑥쑥 크는 방치형 RPG. 마왕성의 집사가 되어 어린 공주를 다시 마계의 주인으로 키워 주세요.</p>
+        <div class="store-row">
+          <!-- TODO: 출시 후 href 를 Google Play 스토어 URL 로 바꾸고 aria-disabled 와 '곧 출시' 표시 제거 -->
+          <a class="store-btn" href="#download" aria-disabled="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.5 2.6a1 1 0 0 0-.5.9v17a1 1 0 0 0 .5.9l9.6-9.4zm10.9 8.1 2.6-2.5L6.6 1.7zm3.9-1.6-2.9 2.9 2.9 2.9 2.9-1.6a1.4 1.4 0 0 0 0-2.6zM6.6 22.3l11.4-6.5-2.6-2.5z"/></svg>
+            <span><small>GET IT ON</small><strong>Google Play</strong></span>
+            <span class="soon">곧 출시</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <a class="kv__scroll" href="#story" aria-label="아래로 스크롤">
+      SCROLL
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+    </a>
+  </section>
+
+  <!-- 세계관 -->
+  <section id="story" class="sec story" aria-labelledby="story-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <span class="sec-head__en">Story</span>
+        <h2 id="story-title">주인을 잃은 마왕성</h2>
+        <svg class="ornament" viewBox="0 0 180 16" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 8h70M110 8h70"/><path d="M90 1l7 7-7 7-7-7z" fill="currentColor"/><circle cx="76" cy="8" r="2" fill="currentColor"/><circle cx="104" cy="8" r="2" fill="currentColor"/></svg>
+      </header>
+      <p class="story__text">
+        마계를 다스리던 마왕이 쓰러진 날,<br>
+        거대한 마왕성에 남은 것은 <strong>아직 어린 공주 한 명</strong>뿐이었습니다.<br>
+        당신은 공주를 맡게 된 <strong>마왕성의 집사</strong>.<br>
+        흩어진 부하를 다시 모으고, 빼앗긴 지역을 되찾고,<br>
+        공주가 왕좌의 주인이 되는 날까지 곁을 지켜 주세요.
+      </p>
+      <p class="story__quote">“집사, 오늘은 어디를 정복하러 가?”</p>
+    </div>
+  </section>
+
+  <!-- 공주 소개 (세븐나이츠 키우기 캐릭터 페이지 구성: 큰 이름 타이포 + 설명 + 큰 일러스트 + 하단 선택기) -->
+  <section id="princess" class="sec sec--alt" aria-labelledby="princess-title">
+    <div class="wrap">
+      <input class="picker" type="radio" name="outfit" id="pk-default" checked>
+      <input class="picker" type="radio" name="outfit" id="pk-blackrose">
+      <input class="picker" type="radio" name="outfit" id="pk-hanbok">
+      <div class="hero-char">
+        <div class="hero-char__text">
+          <span class="sec-head__en">Princess</span>
+          <h2 id="princess-title" class="hero-char__name">마왕의 딸</h2>
+          <ul class="tags" aria-label="특징">
+            <li>마왕성의 후계자</li>
+            <li>보라 뿔 왕관</li>
+            <li>성장형 주인공</li>
+          </ul>
+          <p class="hero-char__desc">작고 어리지만 마왕의 피를 이은 단 하나의 후계자. 겁이 없고 호기심이 많아, 집사가 말려도 먼저 앞장서 적에게 달려듭니다.</p>
+          <p class="hero-char__desc">성장 단계마다 펼쳐지는 이야기 속에서 어떤 왕실의 길을 고르느냐에 따라 공주의 모습이 달라집니다.</p>
+          <div class="thumbs" role="group" aria-label="코스튬 미리보기">
+            <label for="pk-default"><span class="t"><img src="img/princess-throne.jpg" width="640" height="900" alt="" loading="lazy"></span>왕좌의 공주</label>
+            <label for="pk-blackrose"><span class="t"><img src="img/costume-blackrose.jpg" width="576" height="616" alt="" loading="lazy"></span>흑장미 드레스</label>
+            <label for="pk-hanbok"><span class="t"><img src="img/costume-hanbok.jpg" width="576" height="616" alt="" loading="lazy"></span>한복</label>
+          </div>
+          <p class="outfit-name on-default">기본 복장 · <b>마왕성 왕좌 앞</b></p>
+          <p class="outfit-name on-blackrose">코스튬 · <b>흑장미 드레스</b></p>
+          <p class="outfit-name on-hanbok">코스튬 · <b>한복</b></p>
+        </div>
+        <div class="hero-char__media">
+          <div class="stage">
+            <div class="stage__frame">
+              <img class="img-default" src="img/princess-throne.jpg" width="640" height="900" alt="붉은 스테인드글라스 아래 왕좌 앞에 선 보라 머리의 공주와 좌우에 선 기사 부하들" loading="lazy">
+              <img class="img-blackrose" src="img/costume-blackrose.jpg" width="576" height="616" alt="검은 장미 드레스를 입은 공주" loading="lazy">
+              <img class="img-hanbok" src="img/costume-hanbok.jpg" width="576" height="616" alt="한복을 입은 공주" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 게임 특징 (세븐나이츠 키우기 '특징' 페이지 구성: 큰 헤드라인 + 짧은 문구 + 큰 화면 이미지, 좌우 교차) -->
+  <section id="features" class="sec" aria-labelledby="features-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <span class="sec-head__en">Features</span>
+        <h2 id="features-title">켜두기만 해도 강해진다</h2>
+        <p>출근길 1분, 자기 전 1분이면 충분해요.</p>
+      </header>
+
+      <article class="feat">
+        <figure class="feat__media">
+          <img src="img/feature-battle.jpg" width="960" height="711" alt="흑장미 드레스를 입은 공주가 슬라임과 애벌레 몬스터와 싸우는 전투 장면" loading="lazy">
+        </figure>
+        <div class="feat__copy">
+          <span class="feat__num" aria-hidden="true">01</span>
+          <h3>자리를 비워도<br><em>쑥쑥 크는</em> 방치형 성장</h3>
+          <p>접속하지 않는 동안에도 공주와 부하들은 계속 싸우고 골드와 경험치를 모읍니다.</p>
+          <ul class="feat__list">
+            <li>돌아오면 쌓인 오프라인 보상을 한 번에</li>
+            <li>소탕으로 지난 스테이지 보상도 빠르게</li>
+            <li>강력한 보스와 탑에 도전하는 짧고 확실한 손맛</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feat feat--rev">
+        <figure class="feat__media">
+          <img src="img/feature-castle.jpg" width="960" height="800" alt="공주와 부하들이 있는 마왕성 내부" loading="lazy">
+        </figure>
+        <div class="feat__copy">
+          <span class="feat__num" aria-hidden="true">02</span>
+          <h3>나만의<br><em>마왕성</em> 운영</h3>
+          <p>부하를 거두고 마왕성을 꾸려 자원을 모으세요. 매일 주어지는 임무를 끝낼수록 성이 점점 북적입니다.</p>
+          <ul class="feat__list">
+            <li>부하를 거둘수록 북적이는 마왕성</li>
+            <li>매일 갱신되는 임무와 보상</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="feat">
+        <figure class="feat__media">
+          <img src="img/feature-retainers.jpg" width="960" height="540" alt="왕관을 쓴 공주 옆에 뿔 달린 전사와 보라 갑옷 기사 부하가 서 있는 장면" loading="lazy">
+        </figure>
+        <div class="feat__copy">
+          <span class="feat__num" aria-hidden="true">03</span>
+          <h3>공주와 함께 걷는<br><em>왕실의 길</em></h3>
+          <p>성장 단계마다 펼쳐지는 이야기와 선택. 지역을 하나씩 되찾으며 공주를 진정한 마계의 주인으로 이끌어 주세요.</p>
+          <ul class="feat__list">
+            <li>성장 단계별 이야기와 갈림길 선택</li>
+            <li>지역 정복으로 넓어지는 마계</li>
+          </ul>
+        </div>
+      </article>
+
+      <section class="wardrobe" aria-labelledby="wardrobe-title">
+        <figure class="wardrobe__media">
+          <img src="img/feature-costumes.jpg" width="1400" height="418" alt="펭귄, 오리, 고양이, 토끼, 병아리 잠옷을 입은 공주 다섯 명" loading="lazy">
+          <ul class="wardrobe__names" aria-hidden="true"><li>펭귄</li><li>오리</li><li>고양이</li><li>토끼</li><li>병아리</li></ul>
+        </figure>
+        <div class="wardrobe__copy">
+          <h3 id="wardrobe-title">오늘은 <em>어떤 옷</em>을 입혀 볼까?</h3>
+          <p>흑장미 드레스, 한복, 메이드복, 마왕학원 교복, 기사 갑옷, 그리고 펭귄·오리·고양이·토끼·병아리 잠옷까지. 다양한 코스튬으로 공주를 꾸며 보세요.</p>
+          <p class="dev-note">개발 중 화면입니다. 출시 버전과 다를 수 있습니다.</p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- 하단 다운로드 -->
+  <section id="download" class="cta" aria-labelledby="cta-title">
+    <div class="cta__bg"><img src="img/keyvisual.jpg" width="1920" height="1080" alt="" loading="lazy"></div>
+    <div class="wrap">
+      <h2 id="cta-title">지금 <em>마왕성의 집사</em>가<br>되어 주세요</h2>
+      <p>곧 Google Play에서 만나요. 기본 무료 게임이며, 일부 유료 아이템을 판매합니다.</p>
+      <div class="store-row">
+        <!-- TODO: 출시 후 Google Play 스토어 URL 연결 -->
+        <a class="store-btn" href="#download" aria-disabled="true">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.5 2.6a1 1 0 0 0-.5.9v17a1 1 0 0 0 .5.9l9.6-9.4zm10.9 8.1 2.6-2.5L6.6 1.7zm3.9-1.6-2.9 2.9 2.9 2.9 2.9-1.6a1.4 1.4 0 0 0 0-2.6zM6.6 22.3l11.4-6.5-2.6-2.5z"/></svg>
+          <span><small>GET IT ON</small><strong>Google Play</strong></span>
+          <span class="soon">곧 출시</span>
+        </a>
+      </div>
+      <p class="cta__mail">문의: <a href="mailto:modelmap.studio@gmail.com">modelmap.studio@gmail.com</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <a class="brand" href="index.html" aria-label="마왕의 딸 키우기 홈">
+      <svg viewBox="0 0 48 32" fill="currentColor" aria-hidden="true"><path d="M4 2c1 6 4 9 8 10l3-7 5 9 4-12 4 12 5-9 3 7c4-1 7-4 8-10 2 8-1 15-7 18l-1 8H12l-1-8C5 17 2 10 4 2z"/></svg>
+      <span>마왕의 딸 키우기</span>
+    </a>
+    <nav aria-label="정책 문서">
+      <ul>
+        <li><a href="privacy.html">개인정보처리방침</a></li>
+        <li><a href="probability.html">확률 정보 공개</a></li>
+        <li><a href="delete-account.html">계정·데이터 삭제 요청</a></li>
+      </ul>
+    </nav>
+    <p class="biz"><span>개발: 온담 스튜디오</span><span>문의: <a href="mailto:modelmap.studio@gmail.com">modelmap.studio@gmail.com</a></span></p>
+    <!-- TODO: 게임물 등급 표시(등급 분류 후), 사업자 정보 필요 시 추가. 개인 주소·전화번호는 넣지 않는다 -->
+    <p class="copy">© 2026 온담 스튜디오. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
